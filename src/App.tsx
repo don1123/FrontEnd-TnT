@@ -12,9 +12,13 @@ function App() {
   return (
     <div className="main">
     <h1>Hello react</h1>
+    <p>
+      Hi
+    </p>
     <About data = {data} func = {setState}></About>
-    <h1>{state}</h1>  
-    <input onChange={(e) => setState(e.target.value)}></input><br /> 
+    <h1>{state}</h1>
+    <input onChange={(e) => setState(e.target.value)}></input><br />
+
     {/* this is javascript*  
       data.map((item,idx) => {
         if (item === 'a') return <h1 key={idx}>AAA</h1>;
