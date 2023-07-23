@@ -9,7 +9,7 @@ const About = ({data,func}: Props) => {
   return (
     <div>
         <h1>
-            about
+          about
         </h1>
         <button onClick={() => func("State set!❤️")}>click me pls</button>
         {data.map((item,idx) => (

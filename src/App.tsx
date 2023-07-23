@@ -11,10 +11,7 @@ function App() {
   const [state,setState] = useState<string>("test");
   return (
     <div className="main">
-    <h1>Hello react</h1>
-    <p>
-      Hi
-    </p>
+    <h1 className = "Space">Hello react Lppp</h1>
     <About data = {data} func = {setState}></About>
     <h1>{state}</h1>
     <input onChange={(e) => setState(e.target.value)}></input><br />
